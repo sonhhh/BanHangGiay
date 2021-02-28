@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="200270bf165d4c1c9e867342e25a75cd" Name="Diagram1" ZoomLevel="71">
+        <EntityTypeShape EntityType="DoAnNetModel1.ChamCong" Width="1.5" PointX="3.75" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoAnNetModel1.ChucVu" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoAnNetModel1.CTDonHang" Width="1.5" PointX="8" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoAnNetModel1.CTPhieuNhap" Width="1.5" PointX="5.375" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoAnNetModel1.CTSanPham" Width="1.5" PointX="6.375" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoAnNetModel1.DonHang" Width="1.5" PointX="10.125" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoAnNetModel1.KhachHang" Width="1.5" PointX="0.5" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoAnNetModel1.LoaiSanPham" Width="1.5" PointX="2.375" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoAnNetModel1.NhaCungCap" Width="1.5" PointX="7.25" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoAnNetModel1.NhanVien" Width="1.5" PointX="2.125" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoAnNetModel1.PhieuNhap" Width="1.5" PointX="9" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoAnNetModel1.PhieuXuat" Width="1.5" PointX="12" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoAnNetModel1.SanPham" Width="1.5" PointX="4.375" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoAnNetModel1.sysdiagram" Width="1.5" PointX="12.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoAnNetModel1.TaiKhoan" Width="1.5" PointX="0.5" PointY="2.5" IsExpanded="true" />
+        <AssociationConnector Association="DoAnNetModel1.FK__ChamCong__MaNV__693CA210" ManuallyRouted="false" />
+        <AssociationConnector Association="DoAnNetModel1.FK__NhanVien__MaChuc__6383C8BA" ManuallyRouted="false" />
+        <AssociationConnector Association="DoAnNetModel1.FK__CTDonHang__MaCTS__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="DoAnNetModel1.FK__CTDonHang__MaDon__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="DoAnNetModel1.FK__CTPhieuNh__MaCTS__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="DoAnNetModel1.FK__CTPhieuNh__MaPhi__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="DoAnNetModel1.FK__CTSanPham__SoLuo__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="DoAnNetModel1.FK__DonHang__MaKH__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="DoAnNetModel1.FK__PhieuXuat__NgayX__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="DoAnNetModel1.FK__SanPham__MaLoai__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="DoAnNetModel1.FK__PhieuNhap__MaNcc__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="DoAnNetModel1.FK__TaiKhoan__MaNV__66603565" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DoAnNetModel1.KhoHang" Width="1.5" PointX="10.625" PointY="0.5" />
+        <AssociationConnector Association="DoAnNetModel1.FK_DonHang_KhoHang" />
+        <AssociationConnector Association="DoAnNetModel1.FK_KhoHang_PhieuNhap" />
+        <AssociationConnector Association="DoAnNetModel1.FK_LoaiSanPham_KhoHang" />
+        <EntityTypeShape EntityType="DoAnNetModel1.ThongKe1" Width="1.5" PointX="0.75" PointY="7.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
